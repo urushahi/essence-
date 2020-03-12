@@ -1,0 +1,21 @@
+section {
+  padding: 5rem 0;
+  position: relative;
+  text-align: center;
+}
+.section--header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  position: relative;
+  h2 {
+    position: relative;
+  }
+  h2:before {
+    content: " ";
+    position: absolute;
+    bottom: -8px;
+    width: 80px;
+    height: 2px;
+    border:1px solid $font_color;
+  }
+}

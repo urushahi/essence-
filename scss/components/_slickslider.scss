@@ -1,0 +1,49 @@
+.testimonial {
+  .slick-slide {
+    margin: 1rem;
+  }
+  // .slick-dots li button{
+  //     color:$font_color;
+  // }
+  .card {
+    padding: 30px;
+    .card-body{
+        padding:0;
+        .card--image {
+            margin-bottom: 1.25rem;
+            .image--box {
+              width: 80px;
+              padding-right: 1rem;
+            }
+            img {
+              width: 100%;
+              border-radius: 50%;
+              object-fit: cover;
+            }
+            h4 {
+              margin: 0;
+              a {
+                text-decoration: none;
+                color: #484848;
+                &:hover {
+                  color: $font_color;
+                }
+              }
+            }
+          }
+    }
+    
+
+    
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: $font_color;
+ 
+}
+
+.slick-dots li.slick-active button:before {
+  color: $font_color;
+}

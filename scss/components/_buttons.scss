@@ -1,0 +1,33 @@
+.download--btn {
+  background-color: $font_color;
+  color: $font_white;
+  border-radius: 50px;
+  padding: 0.875rem 2rem;
+  font-size: 14px;
+  &:hover {
+    color: white;
+  }
+  @include respond(sm){
+    padding: 0.5rem 1rem;
+  font-size: 10px;
+  }
+}
+.start--btn {
+  @extend .download--btn;
+  border: solid 2px white;
+  background: transparent;
+  &:hover {
+    background-color: $font_color;
+    color: white;
+  }
+}
+.all--btn {
+  @extend .download--btn;
+  border: solid 1px $font_color;
+  background: transparent;
+  color: $font_color;
+  &:hover{
+    background-color: #e8d7d7;
+    color: $font_color;
+  }
+}

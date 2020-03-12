@@ -1,0 +1,36 @@
+.header {
+ 
+    padding: 5px;
+    .navbar {
+      padding: 0;
+      .navbar-brand {
+        color: $font_color;
+      }
+      .navbar-nav {
+        .nav-link {
+          color: $primary;
+          font-size: 0.875rem;
+          padding: 5px 0;
+          margin-left: 30px;
+          .active {
+            color: $font_color;
+          }
+          &:hover {
+            color: $font_color;
+          }
+        }
+        .active {
+          color: $font_color;
+          &:before {
+            content: " ";
+            position: absolute;
+            bottom: -8px;
+            width: 23px;
+            height: 2px;
+            border: 1px solid #f97794;
+            top: 80%;
+          }
+        }
+      }
+    }
+  }
