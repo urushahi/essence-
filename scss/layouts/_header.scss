@@ -21,15 +21,16 @@
         }
         .active {
           color: $font_color;
+          position: relative;
           &:before {
             content: " ";
             position: absolute;
-            bottom: -8px;
             width: 23px;
-            height: 2px;
-            border: 1px solid #f97794;
-            top: 80%;
+            border-bottom: 1px solid #f97794;
+            bottom: 0;
+          
           }
+          
         }
       }
     }
