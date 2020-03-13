@@ -2,6 +2,9 @@ section {
   padding: 5rem 0;
   position: relative;
   text-align: center;
+  @include respond(md){
+    padding:3rem 0;
+  }
 }
 .section--header {
   margin-bottom: 2.5rem;
